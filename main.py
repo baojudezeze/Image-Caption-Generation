@@ -30,6 +30,9 @@ def select_image():
 def generate_caption():
     caption = predict.generate_caption(file_path_predict)
     caption_label.config(text=caption)
+    
+    # the Google gTTs voice package
+    gTTs.run_gTTs(True, caption)
 
 
 if __name__ == '__main__':
