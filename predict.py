@@ -5,7 +5,7 @@ import numpy as np
 import torch
 from PIL import Image
 
-from model import Caption_Net
+from models.model import Caption_Net
 
 
 def generate_caption(file_path):
