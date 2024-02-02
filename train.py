@@ -11,7 +11,7 @@ from torch.utils.data import DataLoader, random_split
 from tqdm import tqdm
 from transformers import GPT2Tokenizer
 import utils
-from model import Caption_Net
+from models.model import Caption_Net
 
 # Cuda seed
 random.seed(66)
